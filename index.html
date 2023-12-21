@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <section class="main-container">
+        <div class="players">
+            <div class="textfield">
+                <label for="player-01">Jogador 01</label>
+                <input type="text" id="player-01" name="player-01">
+            </div>
+            <div class="textfield">
+                <label for="player-02">Jogador 02</label>
+                <input type="text" id="player-02" name="player-02">
+            </div>
+            <br>
+            <h4 id="player-time"></h4>
+        </div>
+        <div class="tray-container">
+            <div class="tray" data-field="0.0"></div>
+            <div class="tray" data-field="0.1"></div>
+            <div class="tray" data-field="0.2"></div>
+            <div class="tray" data-field="1.0"></div>
+            <div class="tray" data-field="1.1"></div>
+            <div class="tray" data-field="1.2"></div>
+            <div class="tray" data-field="2.0"></div>
+            <div class="tray" data-field="2.1"></div>
+            <div class="tray" data-field="2.2"></div>
+        </div>
+        <div class="buttons">
+            <button id="startBtn">Iniciar</button>
+            <button id="newGameBtn">Reiniciar</button>
+        </div>
+    </section>
+</body>
+</html>
